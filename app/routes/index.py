@@ -10,10 +10,15 @@ from app import faceDetection
 def index():
     return json.dumps('Hello world!')
 
-
-@app.route('/test')
-def test():
-    return json.dumps('test')
+#
+# @app.route('/cropOneImage')
+# def _cropOneImage():
+#     return json.dumps('test')
+#
+#
+# @app.route('/cropOneFolder')
+# def _cropOneFolder():
+#     return json.dumps('test')
 
 #
 # @app.route('/api/update/video/<videoId>', methods=['GET'])
